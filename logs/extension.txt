@@ -1,0 +1,151 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.56.0
+Flutter extension: 3.56.0 (not activated)
+
+App: Visual Studio Code
+Remote: codespaces
+Version: 1.74.2
+Platform: linux
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    General
+
+Thu Jan 05 2023 [19:44:51 GMT+0000 (Coordinated Universal Time)] Log file started
+[7:44:51 PM] [General] [Info] Searching for SDKs...
+[7:44:51 PM] [General] [Info] Environment PATH:
+[7:44:51 PM] [General] [Info]     /vscode/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli
+[7:44:51 PM] [General] [Info]     /home/codespace/flutter/bin
+[7:44:51 PM] [General] [Info]     /usr/local/sbin
+[7:44:51 PM] [General] [Info]     /usr/local/bin
+[7:44:51 PM] [General] [Info]     /usr/sbin
+[7:44:51 PM] [General] [Info]     /usr/bin
+[7:44:51 PM] [General] [Info]     /sbin
+[7:44:51 PM] [General] [Info]     /bin
+[7:44:51 PM] [General] [Info] Took 22ms to search for projects (5 levels)
+[7:44:51 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[7:44:51 PM] [General] [Info] Found Flutter project at /workspaces/github-codespaces-flutter-web:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[7:44:51 PM] [General] [Info] Searching for flutter
+[7:44:51 PM] [General] [Info]     Looking for flutter in:
+[7:44:51 PM] [General] [Info]         /workspaces/github-codespaces-flutter-web
+[7:44:51 PM] [General] [Info]         /workspaces/github-codespaces-flutter-web/bin
+[7:44:51 PM] [General] [Info]         /workspaces/github-codespaces-flutter-web/.flutter
+[7:44:51 PM] [General] [Info]         /workspaces/github-codespaces-flutter-web/.flutter/bin
+[7:44:51 PM] [General] [Info]         /workspaces/github-codespaces-flutter-web/vendor/flutter
+[7:44:51 PM] [General] [Info]         /workspaces/github-codespaces-flutter-web/vendor/flutter/bin
+[7:44:51 PM] [General] [Info]         /root/snap/flutter/common/flutter
+[7:44:51 PM] [General] [Info]         /root/snap/flutter/common/flutter/bin
+[7:44:51 PM] [General] [Info]         /root/flutter-sdk
+[7:44:51 PM] [General] [Info]         /root/flutter-sdk/bin
+[7:44:51 PM] [General] [Info]         /google/flutter
+[7:44:51 PM] [General] [Info]         /google/flutter/bin
+[7:44:51 PM] [General] [Info]         /vscode/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli
+[7:44:51 PM] [General] [Info]         /vscode/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli/bin
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin
+[7:44:51 PM] [General] [Info]         /usr/local/sbin
+[7:44:51 PM] [General] [Info]         /usr/local/bin
+[7:44:51 PM] [General] [Info]         /usr/sbin
+[7:44:51 PM] [General] [Info]         /usr/bin
+[7:44:51 PM] [General] [Info]         /sbin
+[7:44:51 PM] [General] [Info]         /bin
+[7:44:51 PM] [General] [Info]     Found at:
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin
+[7:44:51 PM] [General] [Info]     Candidate paths to be post-filtered:
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter
+[7:44:51 PM] [General] [Info]     Found at /home/codespace/flutter
+[7:44:51 PM] [General] [Info]     Returning SDK path /home/codespace/flutter for flutter
+[7:44:51 PM] [General] [Info] Searching for dart
+[7:44:51 PM] [General] [Info]     Looking for dart in:
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin/cache/dart-sdk
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin/cache/dart-sdk/bin
+[7:44:51 PM] [General] [Info]         /vscode/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli
+[7:44:51 PM] [General] [Info]         /vscode/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli/bin
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin
+[7:44:51 PM] [General] [Info]         /usr/local/sbin
+[7:44:51 PM] [General] [Info]         /usr/local/bin
+[7:44:51 PM] [General] [Info]         /usr/sbin
+[7:44:51 PM] [General] [Info]         /usr/bin
+[7:44:51 PM] [General] [Info]         /sbin
+[7:44:51 PM] [General] [Info]         /bin
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin/cache/dart-sdk
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin/cache/dart-sdk/bin
+[7:44:51 PM] [General] [Info]     Found at:
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin/cache/dart-sdk/bin
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin/cache/dart-sdk/bin
+[7:44:51 PM] [General] [Info]     Candidate paths to be post-filtered:
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin/cache/dart-sdk
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter
+[7:44:51 PM] [General] [Info]         /home/codespace/flutter/bin/cache/dart-sdk
+[7:44:51 PM] [General] [Info]     Found at /home/codespace/flutter/bin/cache/dart-sdk
+[7:44:51 PM] [General] [Info]     Returning SDK path /home/codespace/flutter/bin/cache/dart-sdk for dart
+[7:44:51 PM] [General] [Info] Generated random number 69 for new experiment 'sdkDaps'. Experiment is enabled for <= 10
+[7:44:51 PM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[7:44:51 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.56.0
+Flutter extension: 3.56.0 (not activated)
+
+App: Visual Studio Code
+Remote: codespaces
+Version: 1.74.2
+Platform: linux
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: /home/codespace/flutter/bin/cache/dart-sdk
+    Ver: 3.0.0-85.0.dev
+Flutter SDK:
+    Loc: /home/codespace/flutter
+    Ver: 3.7.0-14.0.pre.46
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[7:44:51 PM] [General] [Info] Returning cached results for project search
+[7:44:51 PM] [General] [Info] Activating Flutter extension for Flutter project...
+[7:44:51 PM] [General] [Info] Extension:Startup timing: 318ms
+[7:44:51 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    /workspaces/github-codespaces-flutter-web (get: true, upgrade: false)
+[7:44:52 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.56.0
+Flutter extension: 3.56.0 (activated)
+
+App: Visual Studio Code
+Remote: codespaces
+Version: 1.74.2
+Platform: linux
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: /home/codespace/flutter/bin/cache/dart-sdk
+    Ver: 3.0.0-85.0.dev
+Flutter SDK:
+    Loc: /home/codespace/flutter
+    Ver: 3.7.0-14.0.pre.46
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[7:44:52 PM] [General] [Error] Failed to read package cache file: EntryNotFound (FileSystemError): Unable to read file 'vscode-remote://codespaces+il023109-shiny-orbit-vgwv46p9p62pqgr/root/.vscode-remote/data/User/globalStorage/dart-code.dart-code/package_cache.json' (Error: Unable to resolve nonexistent file 'vscode-remote://codespaces+il023109-shiny-orbit-vgwv46p9p62pqgr/root/.vscode-remote/data/User/globalStorage/dart-code.dart-code/package_cache.json')
+[7:44:52 PM] [General] [Info] Caching Pub package names from https://pub.dev...
+[7:44:53 PM] [General] [Info] Saved 20000 in file:///root/.vscode-remote/data/User/globalStorage/dart-code.dart-code/package_cache.json
+[7:44:54 PM] [General] [Info] Analyzer:Startup timing: 2311ms
+[7:44:58 PM] [General] [Info] Analyzer:FirstAnalysis timing: 4593ms
+[7:45:05 PM] [General] [Info] Returning cached results for project search
+[7:45:05 PM] [General] [Info] Checking 1 projects for supported platforms
+[7:45:05 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[7:45:05 PM] [General] [Info] Supported platforms for the workspace are web
+[7:45:49 PM] [General] [Info] Returning cached results for project search
